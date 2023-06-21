@@ -10,6 +10,7 @@ import iconConquista from '../../assets/nav/IconConquista.svg'
 import iconLanguages from '../../assets/nav/IconLanguages.svg'
 import iconTheme from '../../assets/nav/IconTheme.svg'
 import iconLogin from '../../assets/nav/IconLogin.svg'
+import divisor from '../../assets/nav/Divisor.svg'
 
 
 export default function Nav() {
@@ -23,8 +24,8 @@ export default function Nav() {
                 <img src={iconGitHub} alt="Icone GitHub" />
             </a>
 
-            <div>
-
+            <div className="divisor">
+    
             </div>
 
             <NavLink to={`/`} className={({ isActive }) => isActive ? "active" : ""}>
@@ -40,8 +41,8 @@ export default function Nav() {
                 <img src={iconConquista} alt="Icone para pagina home" />
             </NavLink>
 
-            <div>
-
+            <div className="divisor">
+            
             </div>
 
             <img src={iconLanguages} alt="Icone para pagina home" />
