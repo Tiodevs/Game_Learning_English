@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo {
+    margin-left: 100px;
+    background-color: none;
+}
