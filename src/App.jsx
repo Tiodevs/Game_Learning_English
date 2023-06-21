@@ -1,10 +1,13 @@
+
 import './App.css'
+import Router from './router'
 
 function App() {
 
+
   return (
     <>
-      <h1>Testando marge</h1>
+      <Router />
     </>
   )
 }
