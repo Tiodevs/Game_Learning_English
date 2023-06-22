@@ -17,37 +17,36 @@ export default function Nav() {
 
     return (
         <nav>
-            <a href="https://www.instagram.com/somente_ofelipe/" target="_blank">
-                <img src={iconInstagram} alt="Icone Intagram" />
-            </a>
-            <a href="https://github.com/Tiodevs" target="_blank">
-                <img src={iconGitHub} alt="Icone GitHub" />
-            </a>
-
-            <div className="divisor">
-    
+            <div className="parte01">
+                <a href="https://www.instagram.com/somente_ofelipe/" target="_blank">
+                    <img src={iconInstagram} alt="Icone Intagram" />
+                </a>
+                <a href="https://github.com/Tiodevs" target="_blank">
+                    <img src={iconGitHub} alt="Icone GitHub" />
+                </a>
             </div>
 
-            <NavLink to={`/`} className={({ isActive }) => isActive ? "active" : ""}>
-                <img src={iconHome} alt="Icone para pagina home" />
-            </NavLink>
-            <NavLink to={`/about`} className={({ isActive }) => isActive ? "active" : ""}>
-                <img src={iconDocuments} alt="Icone para pagina home" />
-            </NavLink>
-            <NavLink to={`/games`} className={({ isActive }) => isActive ? "active" : ""}>
-                <img src={iconGames} alt="Icone para pagina home" />
-            </NavLink>
-            <NavLink to={`/conquistas`} className={({ isActive }) => isActive ? "active" : ""}>
-                <img src={iconConquista} alt="Icone para pagina home" />
-            </NavLink>
+            <div className="parte02">
 
-            <div className="divisor">
-            
+                <NavLink to={`/`} className={({ isActive }) => isActive ? "active" : ""}>
+                    <img src={iconHome} alt="Icone para pagina home" />
+                </NavLink>
+                <NavLink to={`/about`} className={({ isActive }) => isActive ? "active" : ""}>
+                    <img src={iconDocuments} alt="Icone para pagina home" />
+                </NavLink>
+                <NavLink to={`/games`} className={({ isActive }) => isActive ? "active" : ""}>
+                    <img src={iconGames} alt="Icone para pagina home" />
+                </NavLink>
+                <NavLink to={`/conquistas`} className={({ isActive }) => isActive ? "active" : ""}>
+                    <img src={iconConquista} alt="Icone para pagina home" />
+                </NavLink>
             </div>
 
-            <img src={iconLanguages} alt="Icone para pagina home" />
-            <img src={iconTheme} alt="Icone para pagina home" />
-            <img src={iconLogin} alt="Icone para pagina home" />
+            <div className="parte03">
+                <img src={iconLanguages} alt="Icone para pagina home" />
+                <img src={iconTheme} alt="Icone para pagina home" />
+                <img src={iconLogin} alt="Icone para pagina home" />
+            </div>
         </nav>
     )
 }

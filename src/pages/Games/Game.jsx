@@ -1,5 +1,5 @@
+
 import Nav from "../../components/nav/nav";
-import styles from './About.css'
 
 export default function Game() {
     return (
@@ -7,8 +7,8 @@ export default function Game() {
             <Nav />
             <div className="conteudo">
                 <div className="esquerda">
-                    <h1>Documentos <br/> sobre ingles</h1>
-                    <a className="btn" target="_blank" href="https://1drv.ms/f/s!AhjtqPcqdm-mha1MuBYNvkCu7VSdPQ?e=ZW3Ciz">BAIXAR</a>
+                    <h1>Esta pagina esta em contrução</h1>
+                    <p>Aqui vai ter varios Jogos para aprender ingles</p>
                 </div>
             </div>
 

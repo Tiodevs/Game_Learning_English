@@ -2,6 +2,8 @@ import { NavLink, RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import About from './pages/About/About';
 import ErrorPage from './error-page';
+import Game from './pages/Games/Game';
+import Conquistas from './pages/Conquistas/Conquistas';
 
 
 export default function Router() {
@@ -15,6 +17,16 @@ export default function Router() {
         {
             path: "about",
             element: <About />,
+            errorElement: <ErrorPage />,
+        },
+        {
+            path: "games",
+            element: <Game/>,
+            errorElement: <ErrorPage />,
+        },
+        {
+            path: "conquistas",
+            element: <Conquistas/>,
             errorElement: <ErrorPage />,
         }
     ]);
