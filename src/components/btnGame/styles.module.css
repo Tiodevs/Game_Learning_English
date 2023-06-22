@@ -1,0 +1,25 @@
+.gameCard{
+    background-color: #D90429;
+    border-radius: 19.4px;
+    width: 450px;
+    height: 190px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.gameCard p{
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.btn{
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 700;
+    background-color: #FFFF;
+    border-radius: 7px;
+}

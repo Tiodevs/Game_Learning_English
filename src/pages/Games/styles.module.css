@@ -7,31 +7,49 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.conteudo {
-    min-height: 100vh;
+.divisor {
+    width: 175px;
+    height: 30px;
 
-    margin-left: 100px;
 }
 
-.esquerda {
+.conteudo {
+    max-width: 100%;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     padding: 100px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
     width: 70%;
 }
 
-.esquerda h1 {
+.titulo h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 85px;
     line-height: 100px;
 }
 
-.esquerda p {
-    width: 650px;
-    margin-top: 40px;
+#paragrafo {
+    width: 550px;
+    margin-top: 35px;
     font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
     line-height: 28px;
+    font-size: 24px;
+}
+
+.games{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: 50%;
 }
