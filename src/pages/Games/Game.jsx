@@ -17,25 +17,43 @@ export default function Game() {
                 </div>
 
                 <div className={style.games}>
+
                     <div className={style.card}>
                         <BtnGame
                             titulo="NÚMEROS"
-                            descricao="O jogo vai sortear um número e o seu desafio vai ser lembrar como se escreve e como se lê." />
+                            descricao="O jogo vai sortear um número e o seu desafio vai ser lembrar como se escreve e como se lê." 
+                            URL="/number"
+                        />
                     </div>
                     <div className={style.card}>
                         <BtnGame
                             titulo="CORES"
-                            descricao="O jogo vai sortear um número e o seu desafio vai ser lembrar como se escreve e como se lê." />
+                            descricao="O jogo vai sortear um número e o seu desafio vai ser lembrar como se escreve e como se lê." 
+                            />
                     </div>
                     <div className={style.card}>
                         <BtnGame
                             titulo="ROUPAS"
-                            descricao="O jogo vai sortear um número e o seu desafio vai ser lembrar como se escreve e como se lê." />
+                            descricao="O jogo vai sortear um número e o seu desafio vai ser lembrar como se escreve e como se lê." 
+                            />
                     </div>
                     <div className={style.card}>
                         <BtnGame
                             titulo="PARTES DO CORPO"
-                            descricao="O jogo vai sortear um número e o seu desafio vai ser lembrar como se escreve e como se lê." />
+                            descricao="O jogo vai sortear um número e o seu desafio vai ser lembrar como se escreve e como se lê." 
+                            />
+                    </div>
+                    <div className={style.card}>
+                        <BtnGame
+                            titulo="PRONOME POSSESIVO"
+                            descricao="O jogo vai sortear um número e o seu desafio vai ser lembrar como se escreve e como se lê." 
+                            />
+                    </div>
+                    <div className={style.card}>
+                        <BtnGame
+                            titulo="WH QUESTION"
+                            descricao="O jogo vai sortear um número e o seu desafio vai ser lembrar como se escreve e como se lê." 
+                            />
                     </div>
 
                 </div>

@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 
 .divisor {
@@ -14,17 +15,18 @@
 }
 
 .conteudo {
-    max-width: 100%;
     margin-left: 100px;
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 0px;
 }
 
 .titulo {
     display: flex;
     flex-direction: column;
     width: 70%;
+    padding-top: 100px;
+    padding-left: 100px;
 }
 
 .titulo h1 {
@@ -43,13 +45,19 @@
 }
 
 .games{
+    padding-left: 100px;
+    padding-right: 100px;
     margin-top: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.card{
-    flex-basis: 50%;
+@media (max-width: 1245px) {
+    .games{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
 }

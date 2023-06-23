@@ -4,6 +4,7 @@ import About from './pages/About/About';
 import ErrorPage from './error-page';
 import Game from './pages/Games/Game';
 import Conquistas from './pages/Conquistas/Conquistas';
+import GameNamber from './pages/GameNumber';
 
 
 export default function Router() {
@@ -22,6 +23,11 @@ export default function Router() {
         {
             path: "games",
             element: <Game/>,
+            errorElement: <ErrorPage />,
+        },
+        {
+            path: "number",
+            element: <GameNamber/>,
             errorElement: <ErrorPage />,
         },
         {
