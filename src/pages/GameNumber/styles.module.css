@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+.divisor {
+    width: 175px;
+    height: 30px;
+
+}
+
+.conteudo {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.titulo h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 100px;
+}
+
+#paragrafo {
+    width: 600px;
+    margin-top: 35px;
+    font-style: normal;
+    line-height: 28px;
+    font-size: 24px;
+}
+
+
+.form {
+    margin-left: 100px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    align-items: center;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.form button {
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+    cursor: pointer;
+
+    width: 260px;
+    height: 49px;
+    margin-top: 80px;
+
+    color: #2B2D42;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.pergunta {
+    display: flex;
+    flex-direction: column;
+}
+
+.pergunta label {
+    line-height: 28px;
+    font-size: 34px;
+    height: 34px;
+    font-weight: 700;
+}
+
+.pergunta input {
+    width: 250px;
+    margin-top: 60px;
+    background: none;
+    border: none;
+    border-bottom: 4px solid #ffffff;
+    /* Define a cor e o estilo da borda inferior */
+    outline: none;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
