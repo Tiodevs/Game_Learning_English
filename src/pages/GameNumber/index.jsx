@@ -1,4 +1,5 @@
 import Nav from "../../components/nav/nav";
+import { useState } from "react";
 import style from './styles.module.css'
 
 import divisor from '../../assets/DivisorGame.svg'
@@ -6,13 +7,14 @@ import btnVolume from '../../assets/BtnVolume.svg'
 import btnText from '../../assets/BtnText.svg'
 import btnClose from '../../assets/BtnClose.svg'
 
-import { useState } from "react";
-
 export default function GameNamber() {
 
+    // Formulario
     const [valorMin, setValorMin] = useState(0)
     const [valorMax, setValorMax] = useState(0)
     const [valorAleatorio, setValorAleatorio] = useState(0)
+
+    // Modal
     const [isOpen, setIsOpen] = useState(false)
     const [textOpen, setTextOpen] = useState(false)
     const [textForExtenso, setTextForExtenso] = useState(0)
@@ -34,7 +36,6 @@ export default function GameNamber() {
         // Sintetizando a fala
         window.speechSynthesis.speak(mensagem);
     }
-
 
     function escreverNumeroPorExtenso() {
         var unidades = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];

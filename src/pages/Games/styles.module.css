@@ -5,13 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    overflow-x: hidden;
+    
 }
 
 .divisor {
     width: 175px;
     height: 30px;
-
 }
 
 .conteudo {
@@ -54,10 +53,54 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 1245px) {
+@media (max-width: 1245px){
     .games{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .conteudo {
+        margin-left: 0px;
+        margin-top: 100px;
+        padding: 50px;
+    }
+
+    .titulo {
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        
+        align-items: start;
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 0px;
     }
 }
+
+@media (max-width: 825px){
+    .titulo h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    #paragrafo {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .conteudo *{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+

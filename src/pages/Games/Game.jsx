@@ -55,7 +55,6 @@ export default function Game() {
                             descricao="O jogo vai sortear um número e o seu desafio vai ser lembrar como se escreve e como se lê." 
                             />
                     </div>
-
                 </div>
             </div>
 

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.conteudo {
+    min-height: 100vh;
+    margin-left: 100px;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    
+}
+
+.esquerda h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 100px;
+}
+
+.esquerda p {
+    width: 650px;
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.btn1 {
+    background-color:#D90429;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 177px;
+    height: 49px;
+    padding: 6px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 65px;                                 
+
+}
+
+@media (max-width: 1245px){
+
+    .conteudo {
+        min-height: 100vh;
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    
+    .esquerda {
+        display: flex;
+        flex-direction: column;
+        padding: 100px; 
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+}
+
+@media (max-width: 825px){
+    .esquerda h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    .esquerda p {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .btn1 {
+        width: 107px;
+        height: 36px;
+        padding: 6px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-top: 20px;                                 
+    }
+
+    .conteudo *{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .esquerda{
+        padding: 40px; 
+    }
+
+    .btn1 {
+        
+        margin-top: 30px;                                 
+    }
+}

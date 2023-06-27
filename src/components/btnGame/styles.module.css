@@ -24,3 +24,16 @@
     background-color: #FFFF;
     border-radius: 7px;
 }
+
+@media (max-width: 560px){
+    .gameCard{
+        background-color: #D90429;
+        border-radius: 19.4px;
+        width: 96%;
+        height: 100%;
+        padding: 20px;
+        margin-top: 80px;
+        margin: 10px;
+        overflow: hidden;
+    }
+}
